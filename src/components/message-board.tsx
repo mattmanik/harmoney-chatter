@@ -86,7 +86,6 @@ function MessageBoard() {
                 <div
                     onClick={handlePostRequest}
                     className="p-2 border border-black py-0 cursor-pointer">Post!</div>
-                <div className="p-2 border border-black py-0 cursor-pointer text-red-500">Delete All</div>
                 <div className="p-2 border border-black py-0 cursor-pointer" onClick={() => { setShowingLatest(!showingLatest); setData([...data].reverse()) }}>
                     {showingLatest ? "Sort: Latest" : "Sort: Old"}
                 </div>
