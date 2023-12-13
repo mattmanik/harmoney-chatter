@@ -1,0 +1,25 @@
+h1 {
+  font-weight: bolder;
+  font-size: 44px;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 22px;
+  opacity: 50%;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.controls {
+  display: flex;
+  width: 18rem;
+  justify-content: space-between;
+}
+
+input,
+button {
+  cursor: pointer;
+}
